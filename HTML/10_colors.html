@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+</head>
+<body>
+   Currently, HTML supports 140 standard color names. These color names can be used in HTML, CSS, SVG, and more.
+
+   <!-- Text color -->
+   <h1 style="color:Tomato;">Text color</h1>
+
+   <p style="color:DodgerBlue;">
+      Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam architecto molestiae maxime distinctio, ab sed nulla, veniam praesentium sequi quos delectus, officia nostrum. Amet delectus dolor quo? Maiores, voluptatem sint?
+   </p>
+
+   <p style="color:MediumSeaGreen;">
+      ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat.
+   </p>
+
+   <!-- Border color-->
+   <h1 style="text-align: center;
+      border:2px solid Tomato;">
+      Border color
+   </h1>
+
+   <!-- Color values -->
+   <div style="text-align: center;
+   padding: 1px;
+   margin: 5px;
+   background-color:tomato;">
+      <h2> Tomato</h2>
+      <h3> Using name of color</h3>
+   </div>
+   
+   <div style="text-align: center;
+   padding: 1px;
+   margin: 5px;
+   background-color:rgb(255, 99, 71);">
+      <h2> rgb(255, 99, 71)</h2>
+      <h3> rgb(red, green,  blue)</h3>
+   </div>
+   
+   <div style="text-align: center;
+   padding: 1px;
+   margin: 5px;
+   background-color:#ff6347;">
+      <h2> #ff6347</h2>
+      <h3>#rrggbb</h3>
+   </div>
+   
+   <div style="text-align: center;
+   padding: 1px;
+   margin: 5px;
+   background-color:hsl(9, 100%, 64%);">
+      <h2> hsl(9, 100%, 64%)</h2>
+      <h3> hsl(hue, saturation, lightness)</h3>
+   </div>
+   
+   <div style="text-align: center;
+   padding: 1px;
+   margin: 5px;
+   background-color:rgba(255, 99, 71, 0.5);">
+      <h2> rgba(255, 99, 71, 0.5)</h2>
+      <h3> rgba(red, green, blue, alpha)</h3>    <!-- alpha is obliquity -->
+   </div>
+   
+   <div style="text-align: center;
+   padding: 1px;
+   margin: 5px;
+   background-color:hsla(9, 100%, 64%, 0.5);">
+      <h2> hsla(9, 100%, 64%, 0.5)</h2>
+      <h3> hsla(hue, saturation, lightness, alpha)</h3>    <!-- alpha is obliquity -->
+   </div>
+
+   <!-- Shades of gray -->
+   <!-- when value of red, green and blue are same, then it is called shades of gray -->
+   <div style="text-align: center;
+   padding: 1px;
+   margin: 5px;">
+   <h2 style="color: red;
+      background-color: #808080 ;">
+      #808080
+   </h2>
+   <h2 style="color: red;
+      background-color: #080808 ;">
+      #080808
+   </h2>
+   <h2 style="color: red;
+      background-color: #a0a0a0 ;">
+      #a0a0a0
+   </h2>
+   <h2 style="color: red;
+      background-color: #0a0a0a ;">
+      #0a0a0a
+   </h2>
+   </div>
+
+   <!-- HSL color value -->
+   <pre>
+      hsl(hue, saturation, lightness)
+      hsla(hue, saturation, lightness, alpha)
+      
+      hue: 0-360
+         hsl(0, 100%, 50%)   /* red */
+         hsl(120, 100%, 50%) /* green */
+         hsl(240, 100%, 50%) /* blue */
+
+      saturation: 0-100%
+         hsl(0, 0%, 50%)   /* gray */
+         hsl(0, 50%, 50%)  /* 50% gray shade */
+         hsl(0, 100%, 50%) /* red */
+
+      lightness: 0-100%
+         hsl(0, 100%, 0%)  /* dark */
+         hsl(0, 100%, 50%) /* neither dark nor light */
+         hsl(0, 100%, 100%)/* light */
+
+      alpha: 0-1
+         hsla(0, 100%, 50%, 1)   /* red */
+         hsla(0, 100%, 50%, 0.5) /* 50% transparent red */
+         hsla(0, 100%, 50%, 0)   /* fully transparent red */
+   </pre>
+</body>
+</html>
