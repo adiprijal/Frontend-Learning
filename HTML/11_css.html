@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>Document</title>
+   <link rel="stylesheet" href="/css/01_external_css.css">
+   <style>
+      h1 {
+         color: green;
+      }
+      p {
+         color: purple;
+      }
+      h4 {
+         color: maroon !important;
+      }
+   </style>
+</head>
+<body>
+   <abbr title="Cascading Style Sheets">CSS</abbr>: Cascading Style Sheets<br>
+
+   <!-- There are 3 ways to use CSS.-->
+
+   <!-- 1. Inline CSS -->
+   <h1 style="color: blue;">Blue Heading</h1>
+   <p style="color: red;">Red paragraph.</p>
+   
+   <!-- 2. Internal CSS -->
+      <h1>Green Heading</h1>
+      <p>Purple paragraph. Here green color in h1 and purple in paragraph is due to internal css.</p>
+      <!-- LOOK INSIDE HEAD TAG -->
+      <!-- Internal CSS are written inside head tag. -->
+      <!-- It is used to style a single page. -->
+
+   <!-- 3. External CSS -->
+   <h2>Maroon heading using External CSS</h2>
+   <h3>Orange heading using External CSS</h3>
+   <p><b>This paragraph is purple.</b></p>
+
+
+   <!--
+      External CSS are written in a separate file with .css extension.
+      It is used to style multiple pages.
+      It is linked to the HTML file using <link> tag.
+   -->
+
+   <!--
+      Priority of CSS:
+         1. Inline CSS
+         2. Internal CSS
+         3. External CSS
+
+      As you can see in line 21 and 22, inline css is given priority over internal css.
+
+      If you want to give priority to internal css over inline css, then you can use !important keyword.
+      Example: <h1 style="color: blue !important;">Blue Heading</h1>
+   -->
+
+   <h4 style="color: white;">Maroon Heading. Internal CSS is given priority due to >> !important << </h4>
+
+</body>
+</html>
