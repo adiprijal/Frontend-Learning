@@ -3,9 +3,70 @@
 <head>
    <meta charset="UTF-8">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-   <title>Document</title>
+   <title>HTML Images</title>
+   <style>
+      img{
+         width:350px;
+      }
+   </style>
 </head>
 <body>
-   <img src="img/1.jpg" alt="1.jpg">
+   <!-- 
+      syntax:
+         <img src="url" alt="alternative text">
+   -->
+   <img src="/materials/spiderman.png" alt="spiderman" height='500 px'>
+   
+   <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+   <br><br><hr><br><br>
+   
+   <img src="/materials/hinata.png" alt="Hinata Hyuga" style="width: 319px ;
+   height: auto;
+   ;">
+      
+   <img src="/materials/hinata.png" alt="Hinata Hyuga" width='319px' 
+   height='auto'> 
+   
+   <!-- 
+      Can also be wriiten as:
+      Use 'style' attibrute. It prevents styles from being overrid by stylesheet.
+      -->
+      
+   <img src="/materials/happycode.gif" alt="happycode">
+
+   <a href="https://youtube.com">
+      <img title='YouTube' src="/materials/youtube.png" alt="youtube" style="width: 100px;">
+   </a>
+
+   <hr><hr>
+
+   <!-- Image floating -->
+   <p style="text-align: justify;"><img src="/materials/tanjiro.png" alt="sun breathing" style="float:right; width:80px; height:auto; margin-left: 10px;">
+      The image will float to the right of the text.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Adipisci modi reiciendis deserunt corporis, incidunt delectus eum inventore eius quasi dolore dicta laborum deleniti quam, nam numquam atque, laudantium cupiditate in. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint ipsa vitae, nihil natus et eius id eaque, fugiat atque, reiciendis blanditiis iusto odit! A iure rerum sed dolore, iste deserunt? Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias deleniti maxime rerum similique, molestiae odio vel laborum rem officia non tempora natus temporibus molestias tempore ea minima laboriosam accusamus quis.</p>
+      
+   <p><img src="/materials/naruto.png" alt="dattebayo" style="float:left;width: 200px;height:auto; margin-right: 10px;">
+      The image will float to the left of the text. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odit aperiam hic accusantium perspiciatis dicta cupiditate, obcaecati sapiente recusandae at culpa ducimus nam nesciunt, exercitationem beatae rem nulla. Placeat, deleniti quisquam! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis totam, tempora magnam quo doloribus iste, optio maxime dolores voluptate beatae doloremque id porro et, itaque quisquam eum harum molestiae atque?</p>
+      
+   <p><img src="/materials/naruto.png" alt="dattebayo" style="float:none;width: 180px;height:auto;">
+   float: none => image inline with text ...Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt vitae a voluptatibus modi ad porro necessitatibus dolores similique, fugit id veritatis magni distinctio! Dolor atque eveniet sed voluptates maxime suscipit.
+   </p>
+      
+   <p><img src="/materials/naruto.png" alt="dattebayo" style="float:inherit;width: 80px;height:auto;">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt at recusandae ad reprehenderit labore? Cum, delectus dolor quibusdam ea, reprehenderit velit harum adipisci, incidunt earum nemo consequatur non a doloremque?
+   </p>
+
+
+   <div>
+   <pre>
+      <b>Common Image Formats</b>
+         APNG	   Animated Portable Network Graphics     .apng
+         GIF	   Graphics Interchange Formats           .gif 
+         ICO	   Microsoft Icon	                  .ico, .cur 
+         JPEG	   Joint Photographic Expert Group image  .jpg, .jpeg, .jfif, .pjpeg, .pjp 
+         PNG	   Portable Network Graphics	          .png 
+         SVG	   Scalable Vector Graphics	          .svg 
+   </pre>
+   </div>
+      
 </body>
 </html>
