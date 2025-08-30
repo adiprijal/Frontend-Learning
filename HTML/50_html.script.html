@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <title>HTML script</title>
+</head>
+
+<body style="text-align: center;">
+   <h1>HTML x JavaScript</h1>
+   <button type="button" onclick="change()">Click Me!</button>
+
+   <p id="demo" title="p1">This is a demonstration.</p><br>
+
+   <img id="naruto" src="/materials/naruto.png" alt="naruto">
+
+   <script>
+      function change() {
+         document.getElementById("demo").innerHTML = "Hello JavaScript!";
+         document.getElementById("demo").style.fontSize = "25px";
+         document.getElementById("demo").style.backgroundColor = "red";
+         document.getElementById("demo").style.fontStyle = "italic";
+         document.getElementById("demo").style.fontFamily = "verdana";
+         document.getElementById("demo").title = "p2";
+         document.getElementById("naruto").src = "/materials/hinata.png";
+      }
+   </script>
+
+   <!-- <noscript> is alt content to be displayed when browser doesnot support javascript -->
+   <noscript>JavaScript isn't responding.</noscript>
+</body>
+
+</html>
